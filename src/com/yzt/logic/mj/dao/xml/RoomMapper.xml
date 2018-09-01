@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yzt.logic.mj.dao.RoomMapper">
+
+<!-- 	<resultMap type="java.util.List" id="roomMap"> -->
+<!-- 		<result property="id" column="ID"/> -->
+<!-- 	</resultMap> -->
+    
+     <insert id="insert">
+	INSERT INTO GAME_ROOM
+	(
+	ROOM_ID,
+	CREATE_ID,
+	CREATE_TIME,
+	USER_ID1,
+	USER_ID2,
+	USER_ID3,
+	USER_ID4,
+	IS_PLAYING,
+	ROOM_TYPE,
+	CIRCLE_NUM,
+	IP,
+	XIAO_JU_NUM,
+	
+	PLAY_TYPE,
+	PLAYER_NUM,
+	BAO_LOU_HU
+
+	)
+	VALUES 
+	(
+	#{roomId},
+	#{createId},
+	#{createTime},
+	#{userId1},
+	#{userId2},
+	#{userId3},
+	#{userId4},
+	#{isPlaying},
+	#{roomType},
+	#{circleNum},
+	#{ip},
+	#{xiaoJuNum},
+	
+	
+	#{playType},
+	#{playerNum},
+	#{baoLouHu}
+	)
+    </insert>
+    
+    <update id="updateRoomState">
+        update GAME_ROOM set IS_PLAYING = 0 ,XIAO_JU_NUM = #{xiaoJuNum} where ROOM_ID = #{roomId}
+    </update>
+
+</mapper>
