@@ -587,7 +587,7 @@ public class GameFunctions extends TCPGameFunctions {
 					}
 				}
 			}
-			logger.info("当前的宝牌"+room.getBaoPai());
+			logger.info("当前的宝牌"+room.getBaoPai()+"最开始设置宝牌"+room.getFirstBaoPai());
 			// 吃
 		} else if ((action >= 175 && action <= 196)) { // 吃
 			if (action >= 175 && action <= 196) {
