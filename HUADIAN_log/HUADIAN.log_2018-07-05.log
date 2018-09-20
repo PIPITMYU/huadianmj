@@ -1,0 +1,34 @@
+2018-07-05 10:20:27,429-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-07-05 10:20:41,259-[YZT] [INFO] main com.yzt.logic.util.ProjectInfoPropertyUtil - 加载properties文件内容完成...........
+2018-07-05 10:20:41,361-[YZT] [INFO] main com.yzt.logic.util.redis.MyRedis - redis 初始化完成
+2018-07-05 10:20:41,810-[YZT] [INFO] main com.yzt.logic.util.CreateInterfacedFile - 生成中·········生成接口文档在桌面·······我日桌面不给生成 扔D盘了
+2018-07-05 10:20:42,747-[YZT] [WARN] pool-3-thread-1 io.netty.bootstrap.ServerBootstrap - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xb40373ca]'
+2018-07-05 10:20:42,760-[YZT] [INFO] pool-3-thread-1 io.netty.channel.ChannelInboundHandlerAdapter - webSocket server startup with port 8244
+2018-07-05 10:22:22,223-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 10:22:22,225-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 11:22:22,230-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 11:22:22,230-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 12:22:22,235-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 12:22:22,236-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 13:22:22,240-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 13:22:22,240-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 14:22:22,247-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 14:22:22,247-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 15:22:22,251-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 15:22:22,252-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 16:22:22,255-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 16:22:22,257-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 17:22:22,261-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 17:22:22,261-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 18:22:22,265-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 18:22:22,267-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 19:22:22,270-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 19:22:22,271-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 20:22:22,274-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 20:22:22,275-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 21:22:22,280-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 21:22:22,281-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 22:22:22,284-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 22:22:22,285-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条
+2018-07-05 23:22:22,290-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理战绩完成，共清理过期记录0条
+2018-07-05 23:22:22,291-[YZT] [INFO] pool-2-thread-1 com.yzt.logic.util.Schdualed - 每小时清理代开战绩完成，共清理过期记录0条

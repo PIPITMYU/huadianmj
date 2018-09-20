@@ -257,6 +257,7 @@ public class GameFunctions extends TCPGameFunctions {
 		// 定宝牌,开局的时候随便定一个就行
 		room.getCurrentMjList().remove(0);//去掉一个宝牌
 		room.setBaoPai(0);
+		room.setFirstBaoPai((int)(Math.random()*27)+1);
 		room.setDiHu(true);
 		// 3.1看庄家有没有暗杠.带混检测, 有没有胡牌等.
 		List<Integer> actionList = MahjongUtils.checkActionList(zhuangPlayer, zhuangPlayer.getCurrentMjList().get(13), room, Cnst.CHECK_TYPE_TIANHU,
@@ -1148,7 +1149,7 @@ public class GameFunctions extends TCPGameFunctions {
 	public static int huanBao(RoomResp room,Integer pai,List<Player> players){
 		if(room.getBaoPai() == 0){
 			//真正意义的定宝
-			room.setBaoPai((int)(Math.random()*27)+1);
+			room.setBaoPai(room.getFirstBaoPai());
 			return Cnst.ZHENGCHANG_HUANBAO;
 		}
 //		if(!pai.equals(room.getBaoPai())){
@@ -1189,8 +1190,9 @@ public class GameFunctions extends TCPGameFunctions {
 		if(room.getNextAction().contains(500)){
 			return false;
 		}
-		if(room.getBaoPai() == null || room.getBaoPai() == 0){
-			return false ;
+		if(room.getBaoPai() == 0){
+			//还没设置过宝牌
+			room.setBaoPai(room.getFirstBaoPai());
 		}
 		//在验证一下牌堆里是否有这张宝牌
 //		if(!room.getCurrentMjList().contains(room.getBaoPai())){

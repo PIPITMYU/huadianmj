@@ -54,6 +54,7 @@ public class RoomResp extends Room {
 	private List<Long> winPlayerIds = new ArrayList<Long>();//当局胡牌的玩家
 	private List<Long> canWinPlayerIds  = new ArrayList<Long>();//其余那几个胡牌的人
 	private boolean diHu;//判断地和  只要闲出过牌 就不算了 中间可以杠杠杠你妈
+	private Integer firstBaoPai ;//开局设置的宝牌 有人听牌后 直接取这个值即可
 	public void initRoom() {
 		this.lastChuPai = null;
 		this.lastChuPaiUserId = null;
@@ -76,6 +77,7 @@ public class RoomResp extends Room {
 		this.winPlayerIds = new ArrayList<Long>();
 		this.canWinPlayerIds = new ArrayList<Long>();
 		this.diHu = true;
+		this.firstBaoPai = null;
 	}
 
 	public List<Integer> getNextAction() {
@@ -390,6 +392,14 @@ public class RoomResp extends Room {
 
 	public void setDiHu(boolean diHu) {
 		this.diHu = diHu;
+	}
+
+	public Integer getFirstBaoPai() {
+		return firstBaoPai;
+	}
+
+	public void setFirstBaoPai(Integer firstBaoPai) {
+		this.firstBaoPai = firstBaoPai;
 	}
 
 	
